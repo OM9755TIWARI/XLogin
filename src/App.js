@@ -10,7 +10,7 @@ const [message, setMessage] = useState("");
 const handleSubmit = (event) => {
   event.preventDefault();
   if(username === "user" && password === "password"){
-    setMessage("Welcome, User!");
+    setMessage("Welcome, user!");
   }
   else{
     setMessage("Invalid username or password");
